@@ -20,8 +20,8 @@ const Footer = ({ selectedBreed }: FooterProps) => {
             };
         } else {
             return {
-                tiktok: "https://www.tiktok.com/@elite_shibas",
-                instagram: "https://www.instagram.com/elite_shibas",
+                tiktok: "https://www.tiktok.com/@shiba.inu.naomi",
+                instagram: "https://www.instagram.com/shiba_inu_naomi",
             };
         }
     };

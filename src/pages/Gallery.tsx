@@ -73,7 +73,7 @@ const Gallery = ({ breed }: BreedProps) => {
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 0.03 }}
                     className="text-center mb-16"
                 >
                     <h1 className="text-4xl font-display font-bold text-primary mb-4">
@@ -128,8 +128,8 @@ const Gallery = ({ breed }: BreedProps) => {
                                       animate={{ opacity: 1, scale: 1 }}
                                       exit={{ opacity: 0, scale: 0.9 }}
                                       transition={{
-                                          duration: 0.5,
-                                          delay: index * 0.1,
+                                          duration: 0.03,
+                                          delay: index * 0.02,
                                       }}
                                       className="relative group cursor-pointer"
                                       onClick={() => setSelectedImage(image)}

@@ -123,6 +123,7 @@
             "email": "Email",
             "phone": "Phone",
             "preferredPuppy": "Preferred Puppy",
+            "preferredPuppyCount": "Preferred Puppy ({{count}} available)",
             "message": "Message",
             "submit": "Send Message",
             "selectPuppy": "Select a puppy",

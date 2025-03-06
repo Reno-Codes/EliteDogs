@@ -10,27 +10,27 @@
         "hero": {
             "title": "Dobrodošli u Elite Dogs",
             "subtitle": "Uzgajamo izuzetne minijaturne šnaucere i shiba inu",
-            "cta": "Pogledajte Dostupne Štence"
+            "cta": "Pogledajte dostupne štence"
         },
         "features": {
-            "title": "Zašto Odabrati Elite Dogs?",
+            "title": "Zašto odabrati Elite Dogs?",
             "subtitle": "Posvećeni smo uzgoju zdravih, sretnih i dobro socijaliziranih štenaca",
             "health": {
-                "title": "Zajamčeno Zdravlje",
+                "title": "Zajamčeno zdravlje",
                 "description": "Svi naši štenci dolaze s opsežnim zdravstvenim jamstvom i veterinarskim pregledom"
             },
             "bloodlines": {
-                "title": "Šampionske Krvne Linije",
+                "title": "Šampionske krvne linije",
                 "description": "Naš program uzgoja fokusira se na održavanje najviše kvalitete krvnih linija"
             },
             "support": {
-                "title": "Doživotna Podrška",
+                "title": "Doživotna podrška",
                 "description": "Pružamo kontinuiranu podršku i vodstvo tijekom cijelog života vašeg štenca"
             }
         },
         "cta": {
             "title": "Jeste li spremni upoznati novog člana obitelji?",
-            "button": "Kontaktirajte Nas"
+            "button": "Kontaktirajte nas"
         }
     },
     "puppies": {
@@ -58,14 +58,14 @@
             }
         },
         "reservation": {
-            "title": "Kako Rezervirati Vašeg Štenca",
+            "title": "Kako rezervirati vaše štene",
             "steps": {
                 "contact": {
-                    "title": "Kontaktirajte Nas",
+                    "title": "Kontaktirajte nas",
                     "description": "Javite nam se da razgovaramo o dostupnim štencima i vašim preferencijama"
                 },
                 "meet": {
-                    "title": "Upoznajte i Odaberite",
+                    "title": "Upoznajte i odaberite",
                     "description": "Zakažite posjet kako biste upoznali naše štence i odabrali svog novog člana obitelji"
                 },
                 "reserve": {
@@ -73,34 +73,34 @@
                     "description": "Položite depozit za osiguranje vašeg odabranog štenca"
                 }
             },
-            "cta": "Kontaktirajte Nas za Rezervaciju"
+            "cta": "Kontaktirajte nas za rezervaciju"
         }
     },
     "about": {
         "title": "O Elite Dogs",
         "subtitle": "Posvećeni uzgoju izuzetnih minijaturnih šnaucera i shiba inu",
         "story": {
-            "title": "Naša Priča",
+            "title": "Naša priča",
             "part1": "Od 2023. godine, Elite Dogs je posvećen uzgoju izuzetnih minijaturnih šnaucera i shiba inu. Naše putovanje započelo je dubokom ljubavlju prema pasmini i predanošću održavanju najviših standarda.",
             "part2": "Ponosimo se našim programom uzgoja koji se fokusira na zdravlje, temperament i usklađenost sa standardima pasmine. Svaki štenac odgaja se u našem domu s ljubavlju i pažnjom kako bi se osigurala pravilna socijalizacija."
         },
         "values": {
-            "title": "Naše Vrijednosti",
+            "title": "Naše vrijednosti",
             "health": {
-                "title": "Zdravlje na Prvom Mjestu",
+                "title": "Zdravlje na prvom mjestu",
                 "description": "Prioritiziramo zdravlje naših pasa kroz rigorozna genetska testiranja i veterinarsku skrb."
             },
             "ethical": {
-                "title": "Etički Uzgoj",
+                "title": "Etički uzgoj",
                 "description": "Naše prakse uzgoja slijede najviše etičke standarde kako bi se osigurala dobrobit naših pasa."
             },
             "family": {
-                "title": "Fokus na Obitelj",
+                "title": "Fokus na obitelj",
                 "description": "Odgajamo naše štence kao članove obitelji, osiguravajući da su dobro socijalizirani i spremni za svoje nove domove."
             }
         },
         "certifications": {
-            "title": "Naši Certifikati",
+            "title": "Naši certifikati",
             "akc": {
                 "title": "HKS Registrirani",
                 "description": "HKS - Hrvatski Kinološki Savez"
@@ -116,27 +116,28 @@
         }
     },
     "contact": {
-        "title": "Kontaktirajte Nas",
-        "subtitle": "Voljeli bismo čuti od vas! Javite nam se u vezi naših štenaca ili bilo kakvih pitanja koja imate.",
+        "title": "Kontaktirajte nas",
+        "subtitle": "Voljeli bismo vas čuti! Javite nam se u vezi štenaca ili bilo kakvih pitanja koja imate.",
         "form": {
             "name": "Ime",
             "email": "Email",
             "phone": "Telefon",
-            "preferredPuppy": "Željeni Štenac",
+            "preferredPuppy": "Željeno štene",
+            "preferredPuppyCount": "Željeno štene ({{count}} dostupno)",
             "message": "Poruka",
-            "submit": "Pošalji Poruku",
-            "selectPuppy": "Odaberite štenca",
+            "submit": "Pošalji",
+            "selectPuppy": "Odaberite štene",
             "noPreference": "Bez preferencije"
         },
         "info": {
-            "title": "Stupite u Kontakt",
+            "title": "Stupite u kontakt",
             "address": "Adresa",
             "phone": "Telefon",
             "email": "Email",
             "location": "Lokacija"
         },
         "hours": {
-            "title": "Radno Vrijeme",
+            "title": "Radno vrijeme",
             "weekdays": "Ponedjeljak - Subota",
             "saturday": "Subota",
             "sunday": "Nedjelja",

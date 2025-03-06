@@ -195,7 +195,9 @@ const Contact = ({ breed }: BreedProps) => {
                                         htmlFor="preferredPuppy"
                                         className="block text-gray-700 font-medium mb-2"
                                     >
-                                        {t("contact.form.preferredPuppy")}
+                                        {t("contact.form.preferredPuppyCount", {
+                                            count: availablePuppies.length,
+                                        })}
                                     </label>
                                     <select
                                         id="preferredPuppy"
