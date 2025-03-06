@@ -70,12 +70,7 @@ const Gallery = ({ breed }: BreedProps) => {
     return (
         <div className="min-h-screen py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.03 }}
-                    className="text-center mb-16"
-                >
+                <motion.div className="text-center mb-16">
                     <h1 className="text-4xl font-display font-bold text-primary mb-4">
                         {t("gallery.title")}
                     </h1>
@@ -115,22 +110,12 @@ const Gallery = ({ breed }: BreedProps) => {
                               Array.from({ length: 6 }).map((_, index) => (
                                   <motion.div
                                       key={`placeholder-${index}`}
-                                      initial={{ opacity: 0.5 }}
-                                      animate={{ opacity: 1 }}
-                                      exit={{ opacity: 0 }}
                                       className="aspect-square bg-gray-200 rounded-lg animate-pulse"
                                   />
                               ))
-                            : galleryImages[activeTab].map((image, index) => (
+                            : galleryImages[activeTab].map((image, _) => (
                                   <motion.div
                                       key={image.src}
-                                      initial={{ opacity: 0, scale: 0.9 }}
-                                      animate={{ opacity: 1, scale: 1 }}
-                                      exit={{ opacity: 0, scale: 0.9 }}
-                                      transition={{
-                                          duration: 0.03,
-                                          delay: index * 0.02,
-                                      }}
                                       className="relative group cursor-pointer"
                                       onClick={() => setSelectedImage(image)}
                                   >
@@ -141,7 +126,7 @@ const Gallery = ({ breed }: BreedProps) => {
                                       />
                                       <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 rounded-lg flex items-center justify-center">
                                           <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                              {t("gallery.clickToView")}
+                                              {t("gallery.viewLarger")}
                                           </span>
                                       </div>
                                   </motion.div>
@@ -153,16 +138,10 @@ const Gallery = ({ breed }: BreedProps) => {
             <AnimatePresence>
                 {selectedImage && (
                     <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
                         className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
                         onClick={() => setSelectedImage(null)}
                     >
                         <motion.img
-                            initial={{ scale: 0.9 }}
-                            animate={{ scale: 1 }}
-                            exit={{ scale: 0.9 }}
                             src={selectedImage.src}
                             alt={selectedImage.alt}
                             className="max-w-full max-h-[90vh] rounded-lg"
