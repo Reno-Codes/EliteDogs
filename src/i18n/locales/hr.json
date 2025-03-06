@@ -48,8 +48,8 @@
             "weeks": "{{count}} tjedana",
             "price": "Cijena",
             "inquire": "Upit za",
-            "male": "Muški",
-            "female": "Ženski",
+            "male": "Mužjak",
+            "female": "Ženka",
             "colors": {
                 "black": "Crni",
                 "salt": "Sol & Papar",
