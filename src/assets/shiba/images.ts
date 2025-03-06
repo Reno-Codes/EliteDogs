@@ -1,7 +1,13 @@
+import hero from "./hero.jpg";
+import about from "./about.jpg";
+import puppy1 from "./puppy1.jpg";
+import puppy2 from "./puppy2.png";
+import puppy3 from "./puppy3.jpg";
+
 export const shibaImages = {
-    hero: "/src/assets/shiba/hero.jpg",
-    about: "/src/assets/shiba/about.jpg",
-    puppy1: "/src/assets/shiba/puppy1.jpg",
-    puppy2: "/src/assets/shiba/puppy2.png",
-    puppy3: "/src/assets/shiba/puppy3.jpg",
+    hero,
+    about,
+    puppy1,
+    puppy2,
+    puppy3,
 };
