@@ -1,4 +1,5 @@
 import { Puppy } from "./schnauzerPuppies";
+import kimi from "../assets/shiba/availablePuppies/kimi.jpg";
 
 export const availablePuppies: Puppy[] = [
     {
@@ -8,6 +9,6 @@ export const availablePuppies: Puppy[] = [
         color: "red",
         age: "15",
         price: "900€",
-        image: "/src/assets/shiba/availablePuppies/kimi.jpg",
+        image: kimi,
     },
 ];
