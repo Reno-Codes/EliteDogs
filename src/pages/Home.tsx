@@ -38,7 +38,7 @@ const Home = ({ breed }: HomeProps) => {
                             {t("home.hero.subtitle")}
                         </p>
                         <Link
-                            to="/puppies"
+                            to={`/${breed}/puppies`}
                             className="btn btn-secondary inline-block text-lg"
                         >
                             {t("home.hero.cta")}
@@ -143,7 +143,7 @@ const Home = ({ breed }: HomeProps) => {
                             {t("home.cta.title")}
                         </h2>
                         <Link
-                            to="/contact"
+                            to={`/${breed}/contact`}
                             className="btn bg-white text-primary hover:bg-opacity-90 inline-block text-lg"
                         >
                             {t("home.cta.button")}
