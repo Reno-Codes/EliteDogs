@@ -37,7 +37,7 @@ const Navbar = ({ selectedBreed, setSelectedBreed }: NavbarProps) => {
     return (
         <nav className="bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-auto md:h-16 py-4 md:py-0">
+                <div className="flex items-center justify-between h-auto md:h-16 py-2 md:py-0">
                     {/* Mobile layout (flex-col) and desktop layout (flex-row) */}
                     <div className="flex md:flex-row flex-col items-center flex-1 md:space-y-0 space-y-6">
                         {/* Logo centered on mobile */}
@@ -63,7 +63,10 @@ const Navbar = ({ selectedBreed, setSelectedBreed }: NavbarProps) => {
                                             : "text-gray-600 hover:text-primary hover:bg-gray-50"
                                     }`}
                                 >
-                                    Miniature Schnauzer
+                                    <span className="md:hidden">Schnauzer</span>
+                                    <span className="hidden md:inline">
+                                        Miniature Schnauzer
+                                    </span>
                                 </button>
                                 <button
                                     onClick={() => handleBreedChange("shiba")}
@@ -73,7 +76,10 @@ const Navbar = ({ selectedBreed, setSelectedBreed }: NavbarProps) => {
                                             : "text-gray-600 hover:text-primary hover:bg-gray-50"
                                     }`}
                                 >
-                                    Shiba Inu
+                                    <span className="md:hidden">Shiba</span>
+                                    <span className="hidden md:inline">
+                                        Shiba Inu
+                                    </span>
                                 </button>
                             </div>
                             {/* Mobile Menu Button */}
@@ -170,7 +176,7 @@ const Navbar = ({ selectedBreed, setSelectedBreed }: NavbarProps) => {
                                 {t("navigation.contact")}
                             </MobileNavLink>
                             <div className="px-3 py-2 border-t border-gray-200">
-                                <LanguageSwitcher />
+                                <LanguageSwitcher isMobileMenu={true} />
                             </div>
                         </div>
                     </motion.div>
