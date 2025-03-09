@@ -148,6 +148,10 @@ const PuppyCard = ({ puppy, breed }: { puppy: Puppy; breed: string }) => {
                 <h3 className="text-2xl font-bold text-primary mb-2">
                     {puppy.name}
                 </h3>
+                <h5 className="text-lg font-bold text-primary mb-2">
+                    {t("puppies.available")}
+                </h5>
+
                 <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <p className="text-gray-600">

@@ -41,6 +41,7 @@
             "message": "Uskoro očekujemo nove štence! Kontaktirajte nas da se pridružite listi čekanja i budete obaviješteni kada stignu novi štenci.",
             "contact": "Više informacija"
         },
+        "available": "Dostupni Štenci",
         "details": {
             "gender": "Spol",
             "color": "Boja",

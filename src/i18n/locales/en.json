@@ -41,6 +41,7 @@
             "message": "We're expecting new puppies soon! Contact us to join our waiting list and be notified when new puppies arrive.",
             "contact": "More information"
         },
+        "available": "Available Puppies",
         "details": {
             "gender": "Gender",
             "color": "Color",
