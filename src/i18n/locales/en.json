@@ -2,7 +2,7 @@
     "navigation": {
         "home": "Home",
         "about": "About",
-        "puppies": "Our Puppies",
+        "puppies": "Available Puppies",
         "contact": "Contact",
         "gallery": "Gallery"
     },
@@ -50,6 +50,7 @@
             "inquire": "Inquire About",
             "male": "Male",
             "female": "Female",
+            "both": "Male & Female",
             "colors": {
                 "black": "Black",
                 "salt": "Salt & Pepper",

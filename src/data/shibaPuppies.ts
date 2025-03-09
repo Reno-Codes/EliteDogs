@@ -8,7 +8,7 @@ export const availablePuppies: Puppy[] = [
         gender: "female",
         color: "red",
         age: "15",
-        price: "900€",
+        price: "800€",
         image: kimi,
     },
 ];

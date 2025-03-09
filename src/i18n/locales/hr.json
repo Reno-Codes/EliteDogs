@@ -2,7 +2,7 @@
     "navigation": {
         "home": "Početna",
         "about": "O nama",
-        "puppies": "Naši Štenci",
+        "puppies": "Dostupni Štenci",
         "contact": "Kontakt",
         "gallery": "Galerija"
     },
@@ -50,6 +50,7 @@
             "inquire": "Upit za",
             "male": "Mužjak",
             "female": "Ženka",
+            "both": "Mužjak i Ženka",
             "colors": {
                 "black": "Crni",
                 "salt": "Sol & Papar",

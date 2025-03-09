@@ -8,6 +8,11 @@ interface HomeProps {
     breed: "schnauzer" | "shiba";
 }
 
+function capitalizeBreed(breed: string): string {
+    if (!breed) return breed;
+    return breed.charAt(0).toUpperCase() + breed.slice(1);
+}
+
 const Home = ({ breed }: HomeProps) => {
     const { t } = useTranslation();
     const images = breed === "schnauzer" ? schnauzerImages : shibaImages;
@@ -41,7 +46,8 @@ const Home = ({ breed }: HomeProps) => {
                             to={`/${breed}/puppies`}
                             className="btn btn-secondary inline-block text-lg"
                         >
-                            {t("home.hero.cta")}
+                            {t("home.hero.cta") +
+                                ` - ${capitalizeBreed(breed)}`}
                         </Link>
                     </div>
                 </motion.div>
