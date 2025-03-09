@@ -27,9 +27,9 @@ export const availablePuppies: Puppy[] = [];
 // Litter for schnauzer
 export const availableLitters: Litter[] = [
     {
-        id: "schnauzer-litter-march-2023",
+        id: "schnauzer-litter-march-2025",
         puppyCount: 5,
-        dateOfBirth: "15.03.2023",
+        dateOfBirth: "08.03.2025",
         gender: "both",
         colors: ["salt"],
         price: "Contact for price",
