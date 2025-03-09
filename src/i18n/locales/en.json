@@ -41,6 +41,17 @@
             "message": "We're expecting new puppies soon! Contact us to join our waiting list and be notified when new puppies arrive.",
             "contact": "More information"
         },
+        "newLitter": {
+            "title": "New Litter Available",
+            "description": "We're excited to announce a new litter of puppies! Contact us for more information and to schedule a visit.",
+            "inquire": "Inquire About This Litter"
+        },
+        "newLitters": "New Litters",
+        "litter": {
+            "puppyCount": "Number of Puppies",
+            "dateOfBirth": "Date of Birth",
+            "availableColors": "Available Colors"
+        },
         "available": "Available Puppies",
         "details": {
             "gender": "Gender",
@@ -57,7 +68,8 @@
                 "salt": "Salt & Pepper",
                 "silver": "Silver",
                 "red": "Red"
-            }
+            },
+            "contactForPrice": "Contact for price"
         },
         "reservation": {
             "title": "How to Reserve Your Puppy",

@@ -38,10 +38,21 @@
         "subtitle": "Naši štenci odgajaju se s ljubavlju i pažnjom, osiguravajući da izrastu u zdrave i dobro prilagođene pratitelje",
         "noAvailable": {
             "title": "Trenutno nema dostupnih štenaca",
-            "message": "Uskoro očekujemo nove štence! Kontaktirajte nas da se pridružite listi čekanja i budete obaviješteni kada stignu novi štenci.",
+            "message": "Uskoro očekujemo nove štence! Kontaktirajte nas kako biste se pridružili našoj listi čekanja i bili obaviješteni kada stignu novi štenci.",
             "contact": "Više informacija"
         },
-        "available": "Dostupni Štenci",
+        "newLitter": {
+            "title": "Novo leglo dostupno",
+            "description": "S uzbuđenjem najavljujemo novo leglo štenaca! Kontaktirajte nas za više informacija i dogovor za posjet.",
+            "inquire": "Upit o ovom leglu"
+        },
+        "newLitters": "Nova legla",
+        "litter": {
+            "puppyCount": "Broj štenaca",
+            "dateOfBirth": "Datum rođenja",
+            "availableColors": "Dostupne boje"
+        },
+        "available": "Dostupni štenci",
         "details": {
             "gender": "Spol",
             "color": "Boja",
@@ -57,7 +68,8 @@
                 "salt": "Sol & Papar",
                 "silver": "Srebrni",
                 "red": "Crvena"
-            }
+            },
+            "contactForPrice": "Kontaktirajte za cijenu"
         },
         "reservation": {
             "title": "Kako rezervirati vaše štene",
